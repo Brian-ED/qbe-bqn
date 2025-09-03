@@ -1,0 +1,3 @@
+qbe -o out/out.s test-file.ssa
+cc -o out/a.out out/out.s
+nix-shell -p qbe
